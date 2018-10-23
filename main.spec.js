@@ -22,6 +22,12 @@ describe("Vue component tests", () => {
     // And there should be localCharts.
     expect(typeof defaultData).toBe("object");
   });
+
+  it("The component should have a change function.", () => {
+    expect(typeof App.change).toBe("function");
+    const defaultData = App.data();
+    expect(typeof defaultData).toBe("object");
+  });
   it("There should be local chart data.", () => {
     const defaultData = App.data();
     expect(defaultData.localLineData.length).toBe(3);
