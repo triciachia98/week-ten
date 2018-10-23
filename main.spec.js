@@ -24,7 +24,7 @@ describe("Vue component tests", () => {
   });
 
   it("The component should have a change function.", () => {
-    expect(typeof App.change).toBe("function");
+    expect(typeof App.methods.change).toBe("function");
     const defaultData = App.data();
     expect(typeof defaultData).toBe("object");
   });
