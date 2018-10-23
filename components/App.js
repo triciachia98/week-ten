@@ -10,7 +10,9 @@ export default {
   name: `App`,
   data() {
     return {
+      
       currentChart: "localBarData",
+      title: "BT3103 WEEK 10",
       localBarData: [
         ["Jan", 4],
         ["Feb", 2],
