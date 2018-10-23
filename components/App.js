@@ -11,6 +11,7 @@ export default {
   data() {
     return {
       currentChart: "localBarData",
+      title: "BT3103 Week 10",
       localBarData: [
         ["Jan", 4],
         ["Feb", 2],
@@ -22,7 +23,7 @@ export default {
     };
   },
   methods: {
-    //updateCurrentChart: function(newChart) {}
+    updateCurrentChart: function(newChart) {}
   },
   firebase: {
     charts: {
